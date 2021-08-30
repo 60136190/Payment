@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+        android:layout_margin="@dimen/dimen_20dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src= "@drawable/reading"/>
+        <LinearLayout
+            android:layout_width="170dp"
+            android:orientation="vertical"
+            android:layout_height="100dp">
+
+            <TextView
+                android:textSize="16sp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:text="Learn Japanese"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:text="Pro features"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:text="Ad-Free"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+        android:layout_margin="@dimen/dimen_20dp"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/green"
+            android:gravity="right"
+            android:layout_weight="9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Free" />
+        <TextView
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/green"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Free" />
+    </LinearLayout>
+        <LinearLayout
+            android:padding="@dimen/dimen_2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:gravity="end"
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="Default widget style"/>
+                <TextView
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="✓"/>
+
+                <TextView
+                    android:layout_weight="2"
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="✓"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="@dimen/dimen_2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:gravity="end"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dimen_5dp"
+                    android:text="Unlock all widget styles. Use on both iPad/iPhone" />
+                <TextView
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="X"/>
+
+                <TextView
+                    android:layout_weight="2"
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="✓"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="@dimen/dimen_2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:gravity="end"
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="Unlimited widget customization"/>
+                <TextView
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="X"/>
+
+                <TextView
+                    android:layout_weight="2"
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="✓"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="@dimen/dimen_2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:gravity="end"
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="Unlimited daily reminder"/>
+                <TextView
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="X"/>
+
+                <TextView
+                    android:layout_weight="2"
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="✓"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="@dimen/dimen_2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:gravity="end"
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Unlimited practice"/>
+                <TextView
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="X"/>
+
+                <TextView
+                    android:layout_weight="2"
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="✓"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="@dimen/dimen_2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:gravity="end"
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="10.000 word/phrases"/>
+                <TextView
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="X"/>
+
+                <TextView
+                    android:layout_weight="2"
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="✓"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="@dimen/dimen_2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:gravity="end"
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="Remove ads"/>
+                <TextView
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="X"/>
+
+                <TextView
+                    android:layout_weight="2"
+                    android:padding="@dimen/dimen_5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="✓"/>
+            </LinearLayout>
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:padding="@dimen/dimen_5dp"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="@dimen/dimen_40dp"
+        android:layout_width="100dp"
+        android:layout_height="120dp">
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="120dp">
+        <LinearLayout
+
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="MONTHLY"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:background="@drawable/bo_goc_tren" />
+            <Button
+                app:backgroundTint=""
+                android:text="Loading"
+                android:background="@drawable/bo_goc_duoi"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+
+        </LinearLayout>
+         </RelativeLayout>
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:textSize="10sp"
+            android:layout_marginTop="85dp"
+            android:layout_width="75dp"
+            android:layout_height="20dp"
+            android:text="PER MONTH"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginRight="10dp"
+        android:layout_width="100dp"
+        android:layout_height="140dp">
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="120dp">
+    <LinearLayout
+
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:orientation="vertical">
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="YEARLY"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:background="@drawable/bo_goc_tren_maucam" />
+        <Button
+            app:backgroundTint="@color/orange"
+            android:text="Loading"
+            android:background="@drawable/bo_goc_duoi"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+    </LinearLayout>
+        </RelativeLayout>
+        <TextView
+            android:textColor="@color/white"
+            android:layout_marginLeft="25dp"
+            android:textSize="10sp"
+            android:layout_marginTop="30dp"
+            android:layout_width="75dp"
+            android:layout_height="20dp"
+            android:text="3 days free"/>
+        <TextView
+            android:textColor="@color/white"
+            android:layout_marginLeft="25dp"
+            android:textSize="10sp"
+            android:layout_marginTop="85dp"
+            android:layout_width="75dp"
+            android:layout_height="20dp"
+            android:text="0 đ/month"/>
+        <Button
+
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:textSize="7sp"
+            android:layout_marginTop="110dp"
+            app:backgroundTint="#E68D1A"
+            android:text="Save 80%"
+            android:background="@drawable/bogoc"
+            android:layout_width="70dp"
+            android:layout_height="27dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="120dp">
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="120dp">
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:orientation="vertical">
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="LIFETIME"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:background="@drawable/bo_goc_tren" />
+        <Button
+            app:backgroundTint=""
+            android:text="Loading"
+            android:background="@drawable/bo_goc_duoi"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+        </RelativeLayout>
+        <TextView
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/dimen_40dp"
+            android:textSize="10sp"
+            android:layout_marginTop="30dp"
+            android:layout_width="75dp"
+            android:layout_height="20dp"
+            android:text="0 đ"/>
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:textSize="10sp"
+            android:layout_marginTop="85dp"
+            android:layout_width="75dp"
+            android:layout_height="20dp"
+            android:text="PAY ONCE"/>
+    </RelativeLayout>
+</LinearLayout>
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:text="Continue"
+            android:background="@drawable/bogoc"
+            app:backgroundTint="@color/orange"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/dimen_40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restore          |"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Term of Sevice    |"
+                android:textStyle="bold"/>
+            <TextView
+               android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy"
+                android:textStyle="bold"/>
+    </LinearLayout>
+        <TextView
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="*** Yearly subcriptions will include 3 days trial for
+new users so you can use it for free. You can also cancle the subcription anytime int the device setting."
+            />
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
